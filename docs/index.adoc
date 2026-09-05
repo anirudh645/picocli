@@ -5794,7 +5794,7 @@ The names of the automatically added help and version options can be customized 
 [source,java,role="primary"]
 ----
 System.setProperty("picocli.version.name.0", "-v");
-System.setProperty("picocli.help.name.0", "--help");
+System.setProperty("picocli.help.name.0", "-H");
 
 CommandLine commandLine = new CommandLine(AutoHelpDemo.class);
 ----
