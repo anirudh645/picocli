@@ -5788,7 +5788,7 @@ Usage: <main class> [-hV] [--option=<option>]
 
 [NOTE]
 ====
-The names of the automatically added help and version options can be customized with system properties set before initializing the `CommandLine` parser. The defaults are `-h` and `-V`.
+ The names of the automatically added help and version options can be customized with system properties set before initializing the `CommandLine` parser. By default these options are `-h`/`--help` and `-V`/`--version`.
 
 .Java
 [source,java,role="primary"]
